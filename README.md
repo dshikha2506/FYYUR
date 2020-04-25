@@ -18,7 +18,6 @@ Fyyur is a musical venue and artist booking site that facilitates the discovery 
   ```sh
   ├── README.md
   ├── app.py *** the main driver of the app. 
-                    "python app.py" to run after installing dependences
   ├── config.py *** Database URLs, CSRF generation, etc
   ├── error.log
   ├── forms.py ***  Forms
