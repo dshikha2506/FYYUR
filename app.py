@@ -502,7 +502,7 @@ def create_shows():
 
 @app.route('/shows/create', methods=['POST'])
 def create_show_submission():
-  error = False
+  error = TRUE
   try: 
     artist_id = request.form['artist_id']
     venue_id = request.form['venue_id']
